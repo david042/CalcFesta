@@ -20,7 +20,11 @@ export default function Calc(props){
 
 const styles = StyleSheet.create({
     texto:{
-        fontSize: 30
+        borderWidth: 1,
+        fontSize: 30,
+        borderRadius: 6,
+        backgroundColor: '#000',
+        color: '#fff'
     }
 });
 

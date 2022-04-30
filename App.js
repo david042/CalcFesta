@@ -8,6 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.row}>
+      <View style={styles.titulo}> Calculadora de alimentos para uma festa infantil </View>
         <View style={styles.texto}> Digite o número de convidados </View>
         <TextInput
           style={styles.input}
@@ -30,18 +31,26 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   row:{
-    width:'100%',
-    marginTop:10
+    width: '100%',
+    marginTop: 10,
+    textAlign: 'center'
   },
   input:{
-    width:'80%',
-    borderWidth:1,
-    marginLeft:'10%',
-    fontSize:30,
-    borderRadius:6
+    width: '80%',
+    alignSelf: 'center',
+    borderWidth: 1,
+    fontSize: 30,
+    borderRadius: 6,
+    backgroundColor: '#000',
+    color: '#fff',
+    marginTop: 10,
+    marginBottom: 10
   },
   texto:{
-    fontSize:30,
-    marginLeft:'10%'
+    fontSize: 30
+  },
+  titulo:{
+    fontSize: 30,
+    marginBottom: 100
   }
 });
