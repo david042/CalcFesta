@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { TextInput } from 'react-native-web';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
 import Calc from './components/Calc';
 
 export default function App() {
